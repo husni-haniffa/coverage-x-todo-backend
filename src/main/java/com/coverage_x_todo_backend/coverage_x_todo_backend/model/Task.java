@@ -16,5 +16,5 @@ public class Task {
     private Long id;
     private String title;
     private String description;
-    private TaskStatus status;
+    private TaskStatus status = TaskStatus.CREATED;
 }
