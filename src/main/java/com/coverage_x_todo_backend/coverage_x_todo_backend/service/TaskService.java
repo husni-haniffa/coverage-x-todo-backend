@@ -22,7 +22,6 @@ public class TaskService {
         }
         task.setTitle(task.getTitle());
         task.setDescription(task.getDescription());
-        task.setStatus(TaskStatus.CREATED);
         return taskRepository.save(task);
     }
 
