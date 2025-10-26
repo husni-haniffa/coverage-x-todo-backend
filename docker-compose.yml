@@ -1,12 +1,14 @@
-version: "3.9"
+version: '3.8'
 
 services:
   mysql:
-    image: mysql:8.0
+    image: mysql:latest
     container_name: coverage-x-todo-mysql
     environment:
       MYSQL_ROOT_PASSWORD: root123
       MYSQL_DATABASE: todo
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root123
     ports:
       - "3306:3306"
     volumes:
@@ -15,12 +17,14 @@ services:
   backend:
     build: .
     container_name: coverage-x-todo-backend
+    environment:
+      DB_DATABASE: todo
+      DB_USER: root
+      DB_PASSWORD: root123
     depends_on:
       - mysql
     ports:
       - "8080:8080"
-    volumes:
-      - ./env.properties:/app/env.properties
 
 volumes:
   mysql_data:
