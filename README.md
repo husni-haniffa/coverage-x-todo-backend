@@ -1,7 +1,11 @@
 Instructions to setup the project on your computer assuming docker is installed
+
 Run the commands given below on two seperate terminal to build and run frontend and backend seperatly
+
 Once its completed open [http://localhost:3000](http://localhost:3000) on the browser
+
 Provide a title and description to add a task, and click done button to complete a task 
+
 Thats it it should be working on your computer too
 
 Backend
@@ -52,7 +56,10 @@ Frontend
 
    [http://localhost:3000](http://localhost:3000) on the browser
 
-The technologies that is used to develop and test is mentioned in this document for the review [https://1drv.ms/w/c/8deb51dda100a19d/EcwbCZ_NqmtHmpKX0EPXEgkBGHgZYzEeN4cNzoksDgReqw?e=gNwuKe](https://1drv.ms/w/c/8deb51dda100a19d/EcwbCZ_NqmtHmpKX0EPXEgkBGHgZYzEeN4cNzoksDgReqw?e=gNwuKe)
+
+The technologies that is used to design, develop and test this application is documented for the review to view click the link below
+
+[https://1drv.ms/w/c/8deb51dda100a19d/EcwbCZ_NqmtHmpKX0EPXEgkBGHgZYzEeN4cNzoksDgReqw?e=gNwuKe](https://1drv.ms/w/c/8deb51dda100a19d/EcwbCZ_NqmtHmpKX0EPXEgkBGHgZYzEeN4cNzoksDgReqw?e=gNwuKe)
 
 
    
